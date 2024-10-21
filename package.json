@@ -1,0 +1,28 @@
+{
+  "name": "snakesandladder",
+  "version": "1.0.0",
+  "description": "A small LLD for snakes and ladders",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && nodemon main",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "keywords": [
+    "Typescript",
+    "Node.js",
+    "Design",
+    "Patterns"
+  ],
+  "author": "Sweta Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
